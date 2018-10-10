@@ -16,7 +16,7 @@ let index = 0
 function init() {
   // your code here
   const bodyEl = document.body
-  bodyEl.addEventListener('keyup', event => {
+  bodyEl.addEventListener('keydown', event => {
     const key = event.key
     console.log(index)
     if (key === codes[index]) {
